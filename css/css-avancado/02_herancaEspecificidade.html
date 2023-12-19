@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Seletores</title>
+    <style>
+
+      body {
+        color: red;
+        font-size: 16px;
+      }
+
+      p {
+        /* color: blue !important; */
+      }
+
+      p {
+        color: red;
+      }
+
+      /* Se um seletor for mais específico que o outro, a regra mais específica será aplicada (terá precedência sobre regras mais gerais). */
+
+      * {
+        color: green;
+      }
+
+      h2 {
+        color: blue;
+      }
+
+      h2.rosa {
+        color: pink;
+      }
+
+      h2#marrom {
+        color: brown;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+
+    <div id="pagina">
+      <h2 class="rosa" id="marrom">Lorem ipsum dolor sit amet, consectetur</h2>
+      vi 
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magni ratione temporibus sequi quae odit asperiores quo enim beatae minima eligendi voluptate laborum pariatur consequatur, maxime dolorem libero dolorum et!
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur qui, vel ab odit nemo repellendus corporis vitae aliquid, minus cupiditate animi. Vel expedita minima at veniam amet culpa laudantium. Nostrum?
+      </p>
+    </div>
+  
+  </body>
+</html>

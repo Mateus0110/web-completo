@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Seletores</title>
+    <style>
+
+      /* Seletor universal: Aplica-se em todos os elementos no documento. */
+      * {
+        border: 1px solid red;
+      }
+
+      /* Seletor de elemento: Seleciona elementos pelo tipo. */
+      h1, h2, h3 {
+        color: green;
+      }
+
+      /* Seletor de classe: Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto. */
+      .roxo {
+        color: purple;
+      }
+
+      p.roxo {}
+
+      /* Seletor de ID: Seleciona um elemento cujo atributo id tem o valor especificado após o símbolo de cerquila. */
+      #azul {
+        color: blue;
+      }
+
+      /* Seletor de filho: Seleciona um elemento que é filho direto do outro. */
+      li > a {
+        color: red;
+        text-decoration: none;
+      }
+      
+      /* Seletor de descendente: Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direto desse elemento) */
+      p a {
+        color: pink;
+      }
+
+      /* Seletor de irmão adjacente: Seleciona um elemento que é o irmão próximo do outro. */
+      h1 + p {
+        background: lightblue;
+      }
+
+      /* Seletor de irmão geral: Seleciona um elemento que é um irmão de outro, embora ele não precise ser o elemento diratamente. */
+      h1 ~ p {
+        background: darkcyan;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <ul>
+      <li>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <a href="">Sobre</a>
+      </li>
+      <li>
+        <a href="">Contato</a>
+      </li>
+
+      <a href="">teste</a>
+    </ul>
+    
+    <div>
+      <h1>Tìtulo da página</h1>
+      <p>
+        Parágrafo 1 da página
+      </p>
+
+      <span>teste span</span>
+      <p>
+        <a href="">Teste</a>
+      </p>
+
+      <a href="">Leia mais</a>
+    </div>
+    
+  </body>
+</html>

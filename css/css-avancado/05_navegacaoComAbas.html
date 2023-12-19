@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Barra de navegação com abas</title>
+    <style>
+
+      body {
+        font-family: "Trebuchey MS", Helvetica, sans-serif;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 720px;
+      }
+
+      ul li {
+        float: left;
+        background: url('img/aba-direita.png') no-repeat top right;
+      }
+
+      li a {
+        color: #fff;
+        display: block;
+        padding: 0 2em;
+        line-height: 3em;
+        text-decoration: none;
+
+        background: url('img/aba-esquerda.png') no-repeat top left;
+      }
+
+      ul a:hover {
+        color: #894a1f;
+      }
+
+      ul #atual {
+        background: url('img/aba-direita-atual.png') no-repeat top right;
+      }
+
+      ul #atual a {
+        background: url('img/aba-esquerda-atual.png') no-repeat top left;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2>Home</h2>
+
+    <ul>
+      <li id="atual">
+        <a href="#">Home</a>
+      </li>
+
+      <li>
+        <a href="pages/sobre.html">Sobre</a>
+      </li>
+
+      <li>
+        <a href="">Serviços</a>
+      </li>
+
+      <li>
+        <a href="">Notícias</a>
+      </li>
+
+      <li>
+        <a href="">Contato</a>
+      </li>
+    </ul>
+    
+  </body>
+</html>

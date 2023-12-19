@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Barra de navegação vertical</title>
+    <style>
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      ul a {
+        width: 200px;
+        height: 40px;
+        display: block;
+        color: #000;
+        text-indent: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        background: #f7b600 url(img/menu.png) no-repeat left bottom;
+      }
+
+      ul a:hover, .selecionado a {
+        background-position: right bottom;
+        background-color: #f99200;
+        color: #fff;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2>Sobre</h2>
+
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+
+      <li class="selecionado">
+        <a href="pages/sobre.html">Sobre</a>
+      </li>
+
+      <li>
+        <a href="">Serviços</a>
+      </li>
+
+      <li>
+        <a href="">Notícias</a>
+      </li>
+
+      <li>
+        <a href="">Contato</a>
+      </li>
+    </ul>
+    
+  </body>
+</html>
